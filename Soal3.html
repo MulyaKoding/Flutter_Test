@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Percabangan if/else/if</title>
+</head>
+<body>
+    <script>
+        var data = prompt("Inputkan Data :");
+        var KodeBuku = "";
+
+        if(data <=1000 ) KodeBuku = "KdBk"
+        else if(nilai >= 900) KodeBuku = "GyHy"
+        else if(nilai >= 800) KodeBuku = "Ltre"
+        else if(nilai >= 700) KodeBuku = "Arts"
+        else if(nilai >= 600) KodeBuku = "AdScs"
+        else if(nilai >= 500) KodeBuku = "SceMth"
+        else if(nilai >= 400) KodeBuku = "Lgge"
+        else if(nilai >= 300) KodeBuku = "AdScs"
+        else if(nilai >= 200) KodeBuku = "SceMth"
+        else KodeBuku = "Gnrl";
+
+        document.write(`<p>Kode Buku : ${KodeBuku}</p>`);
+    </script>
+</body>
+</html>
